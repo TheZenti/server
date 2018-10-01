@@ -19,6 +19,9 @@
 									)) ?>">
 						<?php p($provider->getDescription()) ?>
 					</a>
+					<div>Display name: <?php p($provider->getDisplayName()) ?></div>
+					<div>Description: <?php p($provider->getDescription()) ?></div>
+					<div>Icon: <?php p("some/icon.svg") ?></div>
 				</li>
 			<?php endforeach; ?>
 		</ul>
